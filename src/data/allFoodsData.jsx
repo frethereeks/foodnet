@@ -1,0 +1,68 @@
+import { ash, malidate, robin, sydney } from "../assets/images";
+
+export const allFoodsData = [
+    {
+        id: "8056150",
+        name: "American Cheese Burger",
+        price: 2000,
+        description: "American cheese burger is a dolor sit amet consectetur adipisicing elit. Ab, neque magnam repudiandae hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "starter",
+        images: [ash, robin, sydney],
+        qtyAvailable: 20,
+    },
+    {
+        id: "8056152",
+        name: "Ekpang Kwukwo Meal",
+        price: 5200,
+        description: "Ekpang Kwukwo is the delight you enjoy with all neque magnam repudiandae hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "main dish",
+        images: [sydney, malidate, ash],
+        qtyAvailable: 4,
+    },
+    {
+        id: "8056156",
+        name: "Ice Cream and Chips",
+        price: 1350,
+        description: "Ice Cream and Chips aides your the digestion of your problems out while hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "dessert",
+        images: [malidate, robin, sydney],
+        qtyAvailable: 56,
+    },
+    {
+        id: "8056153",
+        name: "Amala & Ewedu/Gbegiri",
+        price: 7000,
+        description: "Amala & Ewedu/Gbegiri makes you sweat your problems out while hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "main dish",
+        images: [robin, ash, malidate],
+        qtyAvailable: 19,
+    },
+    {
+        id: "8056151",
+        name: "Japanese Pancake",
+        price: 3100,
+        description: "Japanese Pancake gives you the best delight neque magnam repudiandae hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "starter",
+        images: [sydney, ash, malidate],
+        qtyAvailable: 11,
+    },
+    {
+        id: "8056154",
+        name: "Jollof Rice and Turkey",
+        price: 4200,
+        description: "Jollof Rice and Turkey delights the heart your problems out while hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "main dish",
+        images: [ash, sydney, malidate],
+        qtyAvailable: 30,
+    },
+    {
+        id: "8056155",
+        name: "Red Velvet Cake",
+        price: 2900,
+        description: "Red Velvet Cake brings untold satisfaction to the heart your problems out while hic sit ea provident sapiente! Dolorum veniam, voluptas laudantium iusto eos repudiandae explicabo quasi saepe ad beatae perspiciatis",
+        category: "dessert",
+        images: [malidate, robin, sydney],
+        qtyAvailable: 47,
+    },
+]
+
