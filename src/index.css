@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  outline: 0 !important;
+  transition: all .3s ease-in-out !important;
+}
+
+@layer utilities{
+  .shad{
+    box-shadow: 4px 4px 16px 6px #0001;
+  }
+}
