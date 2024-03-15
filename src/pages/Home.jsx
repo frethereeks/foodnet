@@ -1,6 +1,8 @@
-import { HiBars3CenterLeft } from "react-icons/hi2";
+import { HiBars3CenterLeft, HiOutlineCog6Tooth } from "react-icons/hi2";
 
 import Navbar from "../components/Navbar";
+import FoodSwiper from "../components/FoodSwiper";
+import Reviews from "../components/Reviews";
 
 
 export default function Home() {
@@ -22,6 +24,22 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <section className="py-20 relative px-4">
+        <FoodSwiper />
+      </section>
+      <section className="py-20 relative px-4">
+        <Reviews />
+      </section>
+      {/* <section className="py-20 relative px-4 bg-white">
+        <h4 className="font-bold text-slate-800 text-xl md:text-2xl max-w-lg">Explore Lorem ipsum dolor sit amet consectetur adipisicing</h4>
+        <div className="grid grid-cols-2 md:grid-cols-4 py-5">
+          <aside className="flex flex-col gap-3 justify-center bg-slate-100 p-6 hover:bg-blue-700 hover:h-[110%] -translate-y-[5%] transition-all duration-300 group">
+            <HiOutlineCog6Tooth className="text-slate-700 group-hover:text-white" />
+            <h5 className="font-semibold text-slate-700 group-hover:text-white">Sciences Engineering</h5>
+            <p className="font-semibold text-slate-700 opacity-70 group-hover:text-white">Computer sciences are the Lorem ipsum dolor sit amet consectetur.</p>
+          </aside>
+        </div>
+      </section> */}
     </main>
   )
 }
