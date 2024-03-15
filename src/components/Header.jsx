@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { BsCart4 } from 'react-icons/bs'
 import { useContext } from "react";
-import { GlobalContext } from "../auth/AuthContext";
+import { GlobalContext } from "../context/AuthContext";
 
 // React Fragment
 export default function Header() {
